@@ -1,0 +1,34 @@
+body {
+    background-color: #EBEBEB;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+}
+.gradient-gray {
+    background: linear-gradient(180deg,#e7e6e6, #F0F0F0);
+}
+.first-box {
+    background-color: #F0F0F0;
+}
+.accordion-item {
+    background-color: #efefef;
+}
+.accordion-button {
+    background-color:  #E3E3E3;
+}
+
+@media (max-width: 768px) {
+    .boxes {
+        flex-wrap: wrap;
+    }
+}
+
+.sub
+{
+    background: url("images/rss.png") left center no-repeat;
+    padding-right: 30px;
+}
+@media (max-width: 768px) {
+    .card-img-overlay {
+        display: none;
+
+    }
+}
